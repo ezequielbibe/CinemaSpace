@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap');
+@import './variables';
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+
+    .App {
+        display: flex;
+    }
+}
+
+// import sections
+@import '../sections/home/home';
+//import components
+@import '../components/SideBar/sideBar';
